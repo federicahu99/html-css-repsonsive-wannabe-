@@ -6,3 +6,26 @@
     }
 }
 
+/* 480 */
+
+@media screen and (max-width: 480px) {
+
+    .row {
+        display: block;
+    }
+
+    .row >.col {
+        width: 100%;
+    }
+
+    .col-left img{
+        margin: 10px 0 85px 0;
+        text-align: center;
+    }
+
+    .text {
+        margin-bottom: 80px;
+    }
+
+}
+
